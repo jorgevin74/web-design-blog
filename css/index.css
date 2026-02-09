@@ -57,7 +57,8 @@ html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 40em;
+	max-width: 50em;
+	/*updated max-width to 50em*/
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -195,7 +196,6 @@ code {
 header {
 	display: flex;
 	gap: 1em;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	padding: 1em;
@@ -212,6 +212,8 @@ header {
 /* Nav */
 .nav {
 	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 	gap: .5em 1em;
 	padding: 0;
 	margin: 0;
@@ -252,10 +254,16 @@ header {
 .postlist-date,
 .postlist-item:before {
 	font-size: 0.8125em; /* 13px /16 */
-	color: var(--color-gray-90);
+	color: var(--color-gray-50);
 }
 .postlist-date {
-	word-spacing: -0.5px;
+	word-spacing: 1px;
+}
+
+.postlist-item .postlist-date{
+	display: flex;
+	flex-direction: column;
+	justify-content: center
 }
 .postlist-link {
 	font-size: 1.1875em; /* 19px /16 */
@@ -294,5 +302,6 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
+	margin-top: 1em;
 }
 
