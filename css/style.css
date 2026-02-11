@@ -44,6 +44,3 @@ pre[class*="language-diff-"] {
 	color: inherit; /* override del, ins, mark defaults */
 }
 
-time{
-	bottom: 0;
-}

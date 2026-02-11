@@ -1,7 +1,7 @@
 ---
 title: My first class blog
 description: this is my submission for in-class #2
-date: 2026-02-26
+date: 2026-02-04
 ---
 
 <!-- 11ty syntax for metadata of the page above -->

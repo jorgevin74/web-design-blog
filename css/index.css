@@ -10,28 +10,28 @@
 	--color-gray-50: #C0C0C0;
 	--color-gray-90: #333;
 
-	--background-color: #fff;
+	--background-colors: #edede9;
 
 	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+	--text-color-link-1: #082840;
+	--text-color-link-active-1: #5f2b48;
+	--text-color-link-visited-1: #17050F;
 
 	--syntax-tab-size: 2;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color-gray-20: #e0e0e0;
-		--color-gray-50: #C0C0C0;
-		--color-gray-90: #dad8d8;
+		--color-gray-200: #e0e0e0;
+		--color-gray-500: #C0C0C0;
+		--color-gray-900: #dad8d8;
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
+		/* --text-color-link: #1493fb;
 		--text-color-link-active: #6969f7;
 		--text-color-link-visited: #a6a6f8;
 
-		--background-color: #15202b;
+		--background-color: #15202b; */
 	}
 }
 
@@ -49,9 +49,9 @@ html,
 body {
 	padding: 0;
 	margin: 0 auto;
-	font-family: var(--font-family);
+	font-family: var(--font-family--monospace);
 	color: var(--text-color);
-	background-color: var(--background-color);
+	background-color: var(--background-colors);
 }
 html {
 	overflow-y: scroll;
@@ -105,14 +105,14 @@ li {
 }
 
 a[href] {
-	color: var(--text-color-link);
+	color: var(--text-color-link-1);
 }
 a[href]:visited {
 	color: var(--text-color-link-visited);
 }
 a[href]:hover,
 a[href]:active {
-	color: var(--text-color-link-active);
+	color: var(--text-color-link-active-1);
 }
 
 main,
@@ -212,8 +212,6 @@ header {
 /* Nav */
 .nav {
 	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
 	gap: .5em 1em;
 	padding: 0;
 	margin: 0;
