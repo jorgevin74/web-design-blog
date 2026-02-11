@@ -44,3 +44,24 @@ pre[class*="language-diff-"] {
 	color: inherit; /* override del, ins, mark defaults */
 }
 
+
+time{
+	font-weight: 400;
+	font-size: 15px;
+	color: gray;
+	margin-bottom: 10px;
+}
+
+#dotted-line-between-text{
+	font-size: 23px;
+	margin-left: 5px;
+}
+
+#description-text{
+	color: gray;;
+	font-weight: 400;
+}
+
+.post-tag{
+	margin-bottom: 20px;
+}

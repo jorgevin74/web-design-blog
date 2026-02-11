@@ -2,6 +2,7 @@
 title: My first class blog
 description: this is my submission for in-class #2
 date: 2026-02-04
+tags: ["starter", "these are tags for your posts"]
 ---
 
 <!-- 11ty syntax for metadata of the page above -->
