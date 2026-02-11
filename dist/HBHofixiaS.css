@@ -49,7 +49,7 @@ html,
 body {
 	padding: 0;
 	margin: 0 auto;
-	font-family: var(--font-family--monospace);
+	font-family: var(--font-family);
 	color: var(--text-color);
 	background-color: var(--background-colors);
 }
@@ -57,8 +57,8 @@ html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 50em;
-	/*updated max-width to 50em*/
+	max-width: 62.5em;
+	/*updated max-width to 62.5em*/
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -193,12 +193,14 @@ code {
 }
 
 /* Header */
+/* Header */
 header {
 	display: flex;
 	gap: 1em;
 	justify-content: space-between;
 	align-items: center;
 	padding: 1em;
+	margin-top: 12px;
 }
 .home-link {
 	flex-grow: 1;
@@ -209,16 +211,19 @@ header {
 	text-decoration: none;
 }
 
+
 /* Nav */
 .nav {
 	display: flex;
-	gap: .5em 1em;
-	padding: 0;
-	margin: 0;
-	list-style: none;
+	flex-direction: column;
+	position: fixed;
+    left: 350px;
+    top: 1%;
+	gap: 1em;
 }
 .nav-item {
 	display: inline-block;
+	font-size: 1em;
 }
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
@@ -252,7 +257,7 @@ header {
 .postlist-date,
 .postlist-item:before {
 	font-size: 0.8125em; /* 13px /16 */
-	color: var(--color-gray-50);
+	color: gray; 
 }
 .postlist-date {
 	word-spacing: 1px;
@@ -301,4 +306,74 @@ header {
 .post-metadata time {
 	margin-right: 1em;
 	margin-top: 1em;
+}
+
+
+/*Media Queries*/
+
+@media (max-width: 1870px) {
+    .nav {
+        left: 320px;
+    }
+}
+
+@media (max-width: 1820px) {
+    .nav {
+        left: 280px;
+    }
+}
+
+@media (max-width: 1736px) {
+    .nav {
+        left: 240px;
+    }
+}
+
+@media (max-width: 1631px) {
+    .nav {
+        left: 200px;
+    }
+}
+
+@media (max-width: 1575px) {
+    .nav {
+        left: 160px;
+    }
+}
+
+@media (max-width: 1492px) {
+    .nav {
+        left: 120px;
+    }
+}
+
+@media (max-width: 1402px) {
+    .nav {
+        left: 80px;
+    }
+}
+
+@media (max-width: 1332px) {
+    .nav {
+        left: 40px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .nav {
+        left: 0px;
+    }
+}
+
+@media (max-width: 1180px) {
+/* Nav */
+	.nav {
+		display: flex;
+		position: static;
+		flex-direction: row;
+		gap: .5em 1em;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
 }
