@@ -6,7 +6,7 @@ layout: layouts/base.njk
 <ul class="post-metadata">
 	<li>
 	<h1>{{ title }} <span id="dotted-line-between-text">--</span> <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></h1> 
-	<!--<p id="description-text"> -- {{description}} -- </p>-->
+	<p id="description-text"> -- {{description}} -- </p>
 	{%- for tag in tags | filterTagList %}
 	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 	<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
