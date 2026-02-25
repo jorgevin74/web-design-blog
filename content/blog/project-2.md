@@ -5,6 +5,8 @@ date: 2026-02-23
 tags: ["posts", "projects"]
 ---
 
+<h2 class="header_2">Group: Ivy, Werner, Jorge</h2>
+
 <h2 class="header_2"> Concept: </h2>
 
 <p>We had this idea of creating a web page that displays an assortment of albums for users to view. When the user clicks on one of the album covers, it displays all of its information ranging from who created it, the release date and its length to name a few. It would also play a small snippet once the user clicks on the album cover as well as having the color scheme change to that exact album cover. </p>
