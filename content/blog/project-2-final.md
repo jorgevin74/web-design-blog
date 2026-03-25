@@ -14,3 +14,5 @@ I was in charge of working on the front end side so dealing with the njk files a
 </p>
 
 <p>JS Library Used: <a href="https://motion.dev/" target ="_blank">Motion.Js</a> <a href="https://gsap.com/">GSAP</a></p>
+
+<p>Group Members Blog Posts: <a href="https://portorfolio.github.io/blog/blog/project2final/" target="_blank">Ivy</a>
