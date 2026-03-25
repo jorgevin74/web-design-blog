@@ -1,7 +1,7 @@
 ---
 title: Project 2 - Final Draft
 description: this is our group submission for project 2 assigned to us on brightspace
-date: 2026-02-23
+date: 2026-03-25
 tags: ["posts", "projects"]
 ---
 
