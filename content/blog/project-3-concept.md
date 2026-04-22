@@ -34,7 +34,7 @@ tags: ["posts", "projects"]
 
 <h3> Visual Design: </h3>
 
-<p>In terms of font we decided to go with multiple fonts courtesy to <a href="https://fonts.google.com">Google Fonts</a>and found fonts like Orbiton and Anta as well as some creative ones, instead of the usual English speaking font we also decided to possibly add heiroglyphics or another language entirely in the new font "Noto Sans Batak". To really breach levels of communication going with these fonts would really add to it by allowing users to have multiple ways of communication that aren't just limited to plain English dialogue.</p>
+<p>In terms of font we decided to go with multiple fonts courtesy to <a href="https://fonts.google.com">Google Fonts</a> and found fonts like Orbiton and Anta as well as some creative ones, instead of the usual English speaking font we also decided to possibly add heiroglyphics or another language entirely in the new font "Noto Sans Batak". To really breach levels of communication going with these fonts would really add to it by allowing users to have multiple ways of communication that aren't just limited to plain English dialogue.</p>
 
 <p>In terms of picking a color scheme we decided for a sort of purple to blueish theme, it could possibly change in the future but we decided on this as per the inspiration really coming from Avatar as previously mentioned and something similar gives it that futuristic look that we are looking for.</p>
 
