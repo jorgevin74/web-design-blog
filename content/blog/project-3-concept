@@ -1,0 +1,47 @@
+---
+title: Project 3 - Concept / Design Process
+description: this is our group submission for the project 3 - concept assignment that is on brightspace.
+date: 2026-04-22
+tags: ["posts", "projects"]
+---
+
+<h2 class="header_2">Group: Kris, Tiqon, Judy, Jorge</h2>
+
+<h2 class="header_2"> Concept: </h2>
+
+<p>The idea that we came up for our concept was that there is gonna be a tree in the center of our page. It is going to start out as a dead / empty tree where no leaves and no images or messages are on it. It'll just be a completely bare tree with nothing on it. Once a user adds or leaves a message, what is gonna happen is that the message that they left, whether it is an image, a couple or more lines of text, hieroglyphics, a voice memo or a GIF. Will appear onto the tree and slowly as tons of people leave their messages on the tree, a leaf / message would grow and grow and eventually be a tree filled with messages that once it gets full, the messages at the bottom 1-2 lines would disappear to make room for newer ones.</p>
+
+<h2 class="header_2" > Design Process: </h2>
+
+<h3> Research: </h3>
+
+<p></p>
+
+<h3> Inspiration: </h3>
+
+<p></p>
+
+<h3> Information Architecture + User Experience: </h3>
+
+<p>Down below is a link that has access to our entire design process and how we came up with our wireframes and how we'd like the page to look. We came up with the IA and it is surprisingly very simple, We would have the homepage and then it would take the user to an about us page and leaving the message and that is it. With the way the tree looks we came up with ideas on how it would look like:
+</p>
+
+<ul>
+<li>A hamburger menu that gives the user options to go to the about us page, the homepage and adding a message. With the tree standing in the middle of the homepage.</li>
+<li>A nav bar at the top screen of the page with the home and abous us links there. The tree would then be at the center of the page with a text box that allows users to input a message and add it to the tree</li>
+<li>This last one has the nav bar as the root of the tree with one root being the about us page, the home page and then adding a message being in the middle root.</li>
+</ul>
+
+<p>lastly, to see the rest of our wireframes and how it would come together would be in the link down below: </p>
+
+<a href="https://www.figma.com/design/KfMqug1fz7ez696eTkmd3F/MEDP345?node-id=238-2&t=qjtibNLFl5sgVu4V-1" target="_blank">Figma Wireframes</a>
+
+<h3> Visual Design: </h3>
+
+<p>In terms of font we decided to go with multiple fonts courtesy to <a href="https://fonts.google.com">Google Fonts</a>and found fonts like Orbiton and Anta as well as some creative ones, instead of the usual English speaking font we also decided to possibly add heiroglyphics or another language entirely in the new font "Noto Sans Batak". To really breach levels of communication going with these fonts would really add to it by allowing users to have multiple ways of communication that aren't just limited to plain English dialogue.</p>
+
+<p>In terms of picking a color scheme we decided for a sort of purple to blueish theme, it could possibly change in the future but we decided on this as per the inspiration really coming from Avatar as previously mentioned and something similar gives it that futuristic look that we are looking for.</p>
+
+<h3> Implementation </h3>
+
+<p>How we're going to implement this is using nunjunks, creating mainly only two pages and trying to keep it as minimalistic as possible and try to make things easily accessible to the user. We'd then make sure every message displays properly on the page and once it reaches a certain limit, space would open on the bottom to ensure others can leave more messages in case it gets full.</p>
