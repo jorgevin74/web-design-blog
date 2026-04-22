@@ -38,6 +38,10 @@ tags: ["posts", "projects"]
 
 <p>In terms of picking a color scheme we decided for a sort of purple to blueish theme, it could possibly change in the future but we decided on this as per the inspiration really coming from Avatar as previously mentioned and something similar gives it that futuristic look that we are looking for.</p>
 
-<h3> Implementation </h3>
+<h3> Implementation: </h3>
 
 <p>How we're going to implement this is using nunjunks, creating mainly only two pages and trying to keep it as minimalistic as possible and try to make things easily accessible to the user. We'd then make sure every message displays properly on the page and once it reaches a certain limit, space would open on the bottom to ensure others can leave more messages in case it gets full.</p>
+
+<h3> Portion I'll Work On: </h3>
+
+<p>I think I'll work on the backend portion of the page, although it might be challenging I think it would be fun to work on as well as it is a tad bit difficult to spread the work between 4 people but I think it's decided who would do who and we might jump in and help in case needed but I think I'd work on the backend portion.</p>
