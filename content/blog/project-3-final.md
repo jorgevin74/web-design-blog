@@ -7,6 +7,14 @@ tags: ["posts", "projects"]
 
 <h2 class="header_2">Group: Judy, Kris, TJ, Jorge</h2>
 
+<h3>Link to Each Blog Post!:</h3>
+
+<a href="https://krisswan253.github.io/web-design-blog/blog/Project3/">Kris</a>
+
+<a href="https://judyzhang05.github.io/web-design-blog/blog/99_project3Final/">Judy</a>
+
+<a href="https://itznotisrael.github.io/web-design-blog-starter/blog/project3_final/">TJ</a>
+
 <h2>Live Blog Site : <a href="http://167.172.146.126:4000" target="_blank">Project 3</a></h2>
 
 <h2 class="header_2"> Inspiration:</h2>
